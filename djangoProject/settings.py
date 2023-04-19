@@ -41,6 +41,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+STATIC_URL = '/static/' # 能够访问静态文件的URL路径
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 # Application definition
 
